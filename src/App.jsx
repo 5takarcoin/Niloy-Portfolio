@@ -1,8 +1,11 @@
 import { useState } from "react";
 import "./App.css";
 import About from "./components/About";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
+import Projects from "./components/Projects";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -12,6 +15,9 @@ function App() {
       <Navbar />
       <Hero />
       <About />
+      <Projects />
+      <Contact />
+      <Footer />
     </div>
   );
 }

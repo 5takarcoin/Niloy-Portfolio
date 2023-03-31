@@ -1,4 +1,5 @@
 import React from "react";
+import mandala from "../../assets/mandala.png";
 
 const About = () => {
   return (
@@ -19,6 +20,8 @@ const About = () => {
             src="https://scontent.fjsr8-1.fna.fbcdn.net/v/t39.30808-6/275435485_1106419243476366_6919737454301792454_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=174925&_nc_ohc=fIZsQrW2iU4AX_cprIo&_nc_ht=scontent.fjsr8-1.fna&oh=00_AfCemnDmgbjNoaU0dHbNhXjbC1DeeUR-LtBO3ie_Il944A&oe=642BAEE4"
             alt=""
           />
+
+          <img className="jhapsa2" src={mandala} alt="" />
         </div>
       </div>
     </div>

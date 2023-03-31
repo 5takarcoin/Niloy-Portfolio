@@ -16,9 +16,13 @@ const Hero = () => {
           <h3>Immature Artist</h3>
         </div>
         <div className="heroright">
-          <img
+          {/* <img
             src="https://cdna.artstation.com/p/assets/images/images/051/632/064/large/sanim-ahmed-niloy-the-act-of-distruction-2.jpg?1657780392"
             alt="The Act of Destruction"
+          /> */}
+          <img
+            src="https://cdna.artstation.com/p/assets/images/images/053/061/682/large/sanim-ahmed-niloy-bot-render.jpg?1661333203"
+            alt=""
           />
         </div>
       </div>
